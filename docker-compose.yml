@@ -7,3 +7,7 @@ services:
       - ./:/app:delegated
     ports:
       - '8000:80'
+  composer:
+    image: composer:1.8
+    working_dir: /
+    command: composer install
