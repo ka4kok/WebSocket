@@ -8,7 +8,7 @@ use app\commands\components\SocketServer;
 
 class SocketController extends  \yii\console\Controller
 {
-    public function actionStartSocket($port=8080)
+    public function actionStartSocket($port=8000)
     {
         $server = IoServer::factory(
             new HttpServer(

@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     /*jshint esversion: 6 */
-    let soket = new WebSocket("ws://localhost:8080");
+    let soket = new WebSocket("ws://localhost:8000");
     let result = $('.result')[0];
     let count = $('.count')[0];
 
